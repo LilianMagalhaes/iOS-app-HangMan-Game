@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E2478C429DF32F200D86355 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2478C329DF32F200D86355 /* WelcomeViewController.swift */; };
+		1E2478C629DF338400D86355 /* MovieModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2478C529DF338400D86355 /* MovieModeViewController.swift */; };
+		1E2478CA29DF33DE00D86355 /* GameStatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2478C929DF33DE00D86355 /* GameStatsViewController.swift */; };
+		1E2478CC29DF33F800D86355 /* GameStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2478CB29DF33F800D86355 /* GameStats.swift */; };
+		1E2559F729E723B500A351B2 /* MovieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2559F629E723B400A351B2 /* MovieManager.swift */; };
+		1E2559F929E72CBD00A351B2 /* ImdbIds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2559F829E72CBD00A351B2 /* ImdbIds.swift */; };
+		1E2559FB29E7325400A351B2 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2559FA29E7325400A351B2 /* Movie.swift */; };
+		1E7C5C0C29EE12A700C618BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E7C5C0B29EE12A700C618BD /* LaunchScreen.storyboard */; };
+		1E7C5C1929EE768000C618BD /* WordModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7C5C1829EE768000C618BD /* WordModeViewController.swift */; };
+		1E7E2EE829DDF80800B6525D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7E2EE729DDF80800B6525D /* AppDelegate.swift */; };
+		1E7E2EEA29DDF80800B6525D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7E2EE929DDF80800B6525D /* SceneDelegate.swift */; };
+		1E7E2EEF29DDF80800B6525D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E7E2EED29DDF80800B6525D /* Main.storyboard */; };
+		1E7E2EF129DDF80800B6525D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E7E2EF029DDF80800B6525D /* Assets.xcassets */; };
+		1E7E2EFF29DDF80900B6525D /* Hangman_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7E2EFE29DDF80900B6525D /* Hangman_GameTests.swift */; };
+		1E7E2F0929DDF80900B6525D /* Hangman_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7E2F0829DDF80900B6525D /* Hangman_GameUITests.swift */; };
+		1E7E2F0B29DDF80900B6525D /* Hangman_GameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7E2F0A29DDF80900B6525D /* Hangman_GameUITestsLaunchTests.swift */; };
+		1E7E2F1E29DDF92300B6525D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7E2F1D29DDF92300B6525D /* Player.swift */; };
+		1E7E2F2029DDF96100B6525D /* WordManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7E2F1F29DDF96100B6525D /* WordManager.swift */; };
+		1EF88FCF29E8B9C600FD314C /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF88FCE29E8B9C600FD314C /* MainTabBarViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E7E2EFB29DDF80900B6525D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E7E2EDC29DDF80800B6525D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E7E2EE329DDF80800B6525D;
+			remoteInfo = "Hangman Game";
+		};
+		1E7E2F0529DDF80900B6525D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E7E2EDC29DDF80800B6525D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E7E2EE329DDF80800B6525D;
+			remoteInfo = "Hangman Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E2478C329DF32F200D86355 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		1E2478C529DF338400D86355 /* MovieModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModeViewController.swift; sourceTree = "<group>"; };
+		1E2478C929DF33DE00D86355 /* GameStatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStatsViewController.swift; sourceTree = "<group>"; };
+		1E2478CB29DF33F800D86355 /* GameStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStats.swift; sourceTree = "<group>"; };
+		1E2559F629E723B400A351B2 /* MovieManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieManager.swift; sourceTree = "<group>"; };
+		1E2559F829E72CBD00A351B2 /* ImdbIds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImdbIds.swift; sourceTree = "<group>"; };
+		1E2559FA29E7325400A351B2 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		1E7C5C0B29EE12A700C618BD /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E7C5C1829EE768000C618BD /* WordModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordModeViewController.swift; sourceTree = "<group>"; };
+		1E7E2EE429DDF80800B6525D /* Hangman Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hangman Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E7E2EE729DDF80800B6525D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E7E2EE929DDF80800B6525D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1E7E2EEE29DDF80800B6525D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E7E2EF029DDF80800B6525D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E7E2EF529DDF80800B6525D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E7E2EFA29DDF80900B6525D /* Hangman GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hangman GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E7E2EFE29DDF80900B6525D /* Hangman_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hangman_GameTests.swift; sourceTree = "<group>"; };
+		1E7E2F0429DDF80900B6525D /* Hangman GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hangman GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E7E2F0829DDF80900B6525D /* Hangman_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hangman_GameUITests.swift; sourceTree = "<group>"; };
+		1E7E2F0A29DDF80900B6525D /* Hangman_GameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hangman_GameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1E7E2F1D29DDF92300B6525D /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		1E7E2F1F29DDF96100B6525D /* WordManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordManager.swift; sourceTree = "<group>"; };
+		1EF88FCE29E8B9C600FD314C /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E7E2EE129DDF80800B6525D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E7E2EF729DDF80900B6525D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E7E2F0129DDF80900B6525D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E7E2EDB29DDF80800B6525D = {
+			isa = PBXGroup;
+			children = (
+				1E7E2EE629DDF80800B6525D /* Hangman Game */,
+				1E7E2EFD29DDF80900B6525D /* Hangman GameTests */,
+				1E7E2F0729DDF80900B6525D /* Hangman GameUITests */,
+				1E7E2EE529DDF80800B6525D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E7E2EE529DDF80800B6525D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E7E2EE429DDF80800B6525D /* Hangman Game.app */,
+				1E7E2EFA29DDF80900B6525D /* Hangman GameTests.xctest */,
+				1E7E2F0429DDF80900B6525D /* Hangman GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E7E2EE629DDF80800B6525D /* Hangman Game */ = {
+			isa = PBXGroup;
+			children = (
+				1E7E2F1929DDF8CC00B6525D /* Model */,
+				1E7E2EE729DDF80800B6525D /* AppDelegate.swift */,
+				1E7E2EE929DDF80800B6525D /* SceneDelegate.swift */,
+				1E7E2F1829DDF8B900B6525D /* Controller */,
+				1E7E2F1A29DDF8D400B6525D /* View */,
+				1E7E2EF029DDF80800B6525D /* Assets.xcassets */,
+				1E7E2EF529DDF80800B6525D /* Info.plist */,
+			);
+			path = "Hangman Game";
+			sourceTree = "<group>";
+		};
+		1E7E2EFD29DDF80900B6525D /* Hangman GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E7E2EFE29DDF80900B6525D /* Hangman_GameTests.swift */,
+			);
+			path = "Hangman GameTests";
+			sourceTree = "<group>";
+		};
+		1E7E2F0729DDF80900B6525D /* Hangman GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E7E2F0829DDF80900B6525D /* Hangman_GameUITests.swift */,
+				1E7E2F0A29DDF80900B6525D /* Hangman_GameUITestsLaunchTests.swift */,
+			);
+			path = "Hangman GameUITests";
+			sourceTree = "<group>";
+		};
+		1E7E2F1829DDF8B900B6525D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1E2478C329DF32F200D86355 /* WelcomeViewController.swift */,
+				1E2478C529DF338400D86355 /* MovieModeViewController.swift */,
+				1E2478C929DF33DE00D86355 /* GameStatsViewController.swift */,
+				1EF88FCE29E8B9C600FD314C /* MainTabBarViewController.swift */,
+				1E7C5C1829EE768000C618BD /* WordModeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1E7E2F1929DDF8CC00B6525D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E7E2F1D29DDF92300B6525D /* Player.swift */,
+				1E7E2F1F29DDF96100B6525D /* WordManager.swift */,
+				1E2478CB29DF33F800D86355 /* GameStats.swift */,
+				1E2559F629E723B400A351B2 /* MovieManager.swift */,
+				1E2559F829E72CBD00A351B2 /* ImdbIds.swift */,
+				1E2559FA29E7325400A351B2 /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1E7E2F1A29DDF8D400B6525D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E7E2EED29DDF80800B6525D /* Main.storyboard */,
+				1E7C5C0B29EE12A700C618BD /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E7E2EE329DDF80800B6525D /* Hangman Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E7E2F0E29DDF80900B6525D /* Build configuration list for PBXNativeTarget "Hangman Game" */;
+			buildPhases = (
+				1E7E2EE029DDF80800B6525D /* Sources */,
+				1E7E2EE129DDF80800B6525D /* Frameworks */,
+				1E7E2EE229DDF80800B6525D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hangman Game";
+			productName = "Hangman Game";
+			productReference = 1E7E2EE429DDF80800B6525D /* Hangman Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E7E2EF929DDF80900B6525D /* Hangman GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E7E2F1129DDF80900B6525D /* Build configuration list for PBXNativeTarget "Hangman GameTests" */;
+			buildPhases = (
+				1E7E2EF629DDF80900B6525D /* Sources */,
+				1E7E2EF729DDF80900B6525D /* Frameworks */,
+				1E7E2EF829DDF80900B6525D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E7E2EFC29DDF80900B6525D /* PBXTargetDependency */,
+			);
+			name = "Hangman GameTests";
+			productName = "Hangman GameTests";
+			productReference = 1E7E2EFA29DDF80900B6525D /* Hangman GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E7E2F0329DDF80900B6525D /* Hangman GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E7E2F1429DDF80900B6525D /* Build configuration list for PBXNativeTarget "Hangman GameUITests" */;
+			buildPhases = (
+				1E7E2F0029DDF80900B6525D /* Sources */,
+				1E7E2F0129DDF80900B6525D /* Frameworks */,
+				1E7E2F0229DDF80900B6525D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E7E2F0629DDF80900B6525D /* PBXTargetDependency */,
+			);
+			name = "Hangman GameUITests";
+			productName = "Hangman GameUITests";
+			productReference = 1E7E2F0429DDF80900B6525D /* Hangman GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E7E2EDC29DDF80800B6525D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1E7E2EE329DDF80800B6525D = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					1E7E2EF929DDF80900B6525D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 1E7E2EE329DDF80800B6525D;
+					};
+					1E7E2F0329DDF80900B6525D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 1E7E2EE329DDF80800B6525D;
+					};
+				};
+			};
+			buildConfigurationList = 1E7E2EDF29DDF80800B6525D /* Build configuration list for PBXProject "Hangman Game" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E7E2EDB29DDF80800B6525D;
+			productRefGroup = 1E7E2EE529DDF80800B6525D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E7E2EE329DDF80800B6525D /* Hangman Game */,
+				1E7E2EF929DDF80900B6525D /* Hangman GameTests */,
+				1E7E2F0329DDF80900B6525D /* Hangman GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E7E2EE229DDF80800B6525D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E7C5C0C29EE12A700C618BD /* LaunchScreen.storyboard in Resources */,
+				1E7E2EF129DDF80800B6525D /* Assets.xcassets in Resources */,
+				1E7E2EEF29DDF80800B6525D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E7E2EF829DDF80900B6525D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E7E2F0229DDF80900B6525D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E7E2EE029DDF80800B6525D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF88FCF29E8B9C600FD314C /* MainTabBarViewController.swift in Sources */,
+				1E2559FB29E7325400A351B2 /* Movie.swift in Sources */,
+				1E2478C429DF32F200D86355 /* WelcomeViewController.swift in Sources */,
+				1E7E2EE829DDF80800B6525D /* AppDelegate.swift in Sources */,
+				1E2478CA29DF33DE00D86355 /* GameStatsViewController.swift in Sources */,
+				1E7E2F2029DDF96100B6525D /* WordManager.swift in Sources */,
+				1E2559F729E723B500A351B2 /* MovieManager.swift in Sources */,
+				1E7E2EEA29DDF80800B6525D /* SceneDelegate.swift in Sources */,
+				1E2478C629DF338400D86355 /* MovieModeViewController.swift in Sources */,
+				1E7E2F1E29DDF92300B6525D /* Player.swift in Sources */,
+				1E7C5C1929EE768000C618BD /* WordModeViewController.swift in Sources */,
+				1E2478CC29DF33F800D86355 /* GameStats.swift in Sources */,
+				1E2559F929E72CBD00A351B2 /* ImdbIds.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E7E2EF629DDF80900B6525D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E7E2EFF29DDF80900B6525D /* Hangman_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E7E2F0029DDF80900B6525D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E7E2F0929DDF80900B6525D /* Hangman_GameUITests.swift in Sources */,
+				1E7E2F0B29DDF80900B6525D /* Hangman_GameUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E7E2EFC29DDF80900B6525D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E7E2EE329DDF80800B6525D /* Hangman Game */;
+			targetProxy = 1E7E2EFB29DDF80900B6525D /* PBXContainerItemProxy */;
+		};
+		1E7E2F0629DDF80900B6525D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E7E2EE329DDF80800B6525D /* Hangman Game */;
+			targetProxy = 1E7E2F0529DDF80900B6525D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E7E2EED29DDF80800B6525D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E7E2EEE29DDF80800B6525D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E7E2F0C29DDF80900B6525D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E7E2F0D29DDF80900B6525D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E7E2F0F29DDF80900B6525D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X553S9Q3V5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hangman Game/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lom.magalhaes.Hangman-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E7E2F1029DDF80900B6525D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X553S9Q3V5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hangman Game/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lom.magalhaes.Hangman-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1E7E2F1229DDF80900B6525D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X553S9Q3V5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lom.magalhaes.Hangman-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hangman Game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hangman Game";
+			};
+			name = Debug;
+		};
+		1E7E2F1329DDF80900B6525D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X553S9Q3V5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lom.magalhaes.Hangman-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hangman Game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hangman Game";
+			};
+			name = Release;
+		};
+		1E7E2F1529DDF80900B6525D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X553S9Q3V5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lom.magalhaes.Hangman-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hangman Game";
+			};
+			name = Debug;
+		};
+		1E7E2F1629DDF80900B6525D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X553S9Q3V5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lom.magalhaes.Hangman-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hangman Game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E7E2EDF29DDF80800B6525D /* Build configuration list for PBXProject "Hangman Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E7E2F0C29DDF80900B6525D /* Debug */,
+				1E7E2F0D29DDF80900B6525D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E7E2F0E29DDF80900B6525D /* Build configuration list for PBXNativeTarget "Hangman Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E7E2F0F29DDF80900B6525D /* Debug */,
+				1E7E2F1029DDF80900B6525D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E7E2F1129DDF80900B6525D /* Build configuration list for PBXNativeTarget "Hangman GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E7E2F1229DDF80900B6525D /* Debug */,
+				1E7E2F1329DDF80900B6525D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E7E2F1429DDF80900B6525D /* Build configuration list for PBXNativeTarget "Hangman GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E7E2F1529DDF80900B6525D /* Debug */,
+				1E7E2F1629DDF80900B6525D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E7E2EDC29DDF80800B6525D /* Project object */;
+}
